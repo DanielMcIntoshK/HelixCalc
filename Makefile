@@ -2,7 +2,7 @@ SRC_DIR := src
 OBJ_DIR := obj
 BIN_DIR := bin
 INC_DIR := include
-LIN_INC := C:\msys64\mingw64\include
+LIN_INC := /usr/include
 EXE := HelixCalc
 SRC := $(wildcard $(SRC_DIR)/*.cxx)
 OBJ := $(SRC:$(SRC_DIR)/%.cxx=$(OBJ_DIR)/%.o)
